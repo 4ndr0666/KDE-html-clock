@@ -131,7 +131,6 @@ to `FF` (255 in decimal) being fully opaque, we can do this:
 <span style="color: #{flip:00:FF}ffffff;">BLINK!</span>
 ```
 
-![Flipping alpha channel value](img/flip-01.gif)
 
 But if you want, you can also blink by toggling whole colors:
 
@@ -152,7 +151,6 @@ You can use `{flip}` as many times as you want, so you can easily achieve this:
 <span style="color: {flip:#ff0000:green};">{flip:THIS:BLINKS}!</span>
 ```
 
-![Flip example 02](img/flip-02.gif)
 
 As already mentioned, you can also flip other placeholders:
 
@@ -160,7 +158,6 @@ As already mentioned, you can also flip other placeholders:
 {flip:{MMM} {dd}, {yyyy}:Today is {DDD}}
 ```
 
-![Flip example 03](img/flip-03.gif)
 
 ---
 
